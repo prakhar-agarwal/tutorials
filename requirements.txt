@@ -2,10 +2,10 @@
 
 sphinx
 sphinx-gallery
-tqdm
-numpy
-matplotlib
-torchvision
+tqdm==4.50.0
+numpy==1.19.2
+matplotlib==3.3.2
+torchvision==0.7.0
 PyHamcrest
 bs4
 awscli==1.16.35
@@ -16,7 +16,7 @@ awscli==1.16.35
 ipython
 
 # to run examples
-pandas
+pandas==1.1.2
 scikit-image
 # pillow >= 4.2 will throw error when trying to write mode RGBA as JPEG,
 # this is a workaround to the issue.
